@@ -66,6 +66,17 @@
     top: 310px;
     left: 230px;
   }
+  
+  .bustelo-one::after{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 90px;
+    background: red;
+    left: 90px;
+    top: 140px;
+    z-index: 2;
+  }
   .bustelo-two {
     position: absolute;
     background: yellow;
@@ -73,6 +84,75 @@
     height: 230px;
     top: 310px;
     left: 415px;
+  }
+  .bustelo-two::after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 90px;
+    background: red;
+    left: 40px;
+    top: 140px;
+    z-index: 2;
+  }
+  
+  .mug-one {
+    position: absolute;
+    background: gray;
+    width: 80px;
+    height: 80px;
+    top: 470px;
+    left: 380px;
+    z-index: 3;
+  }
+  .mug-one::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 40px;
+    right: 60px;
+    border: 8px solid gray;
+    border-radius: 50%;
+    top: 10px;
+    z-index: 3;
+  }
+  .mug-two {
+    position: absolute;
+    background: blue;
+    width: 80px;
+    height: 80px;
+    top: 390px;
+    left: 380px;
+    z-index: 3;
+  }
+  .mug-two::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 40px;
+    right: 60px;
+    border: 8px solid gray;
+    border-radius: 50%;
+    top: 10px;
+    z-index: 3;
+  }
+  .mug-three {
+    position: absolute;
+    background: gray;
+    width: 80px;
+    height: 80px;
+    top: 235px;
+    left: 490px;
+  }
+  .mug-three::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 40px;
+    right: 60px;
+    border: 8px solid gray;
+    border-radius: 50%;
+    top: 10px;
   }
 </style>
 
@@ -84,4 +164,7 @@
 <div class="kettle-handle"> </div>
 <div class="bustelo-one"></div>
 <div class="bustelo-two"></div>
+<div class="mug-one"></div>
+<div class="mug-two"></div>
+<div class="mug-three"></div>
 
